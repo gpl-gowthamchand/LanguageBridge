@@ -9,9 +9,9 @@ const Index = () => {
       <div className="max-w-6xl mx-auto">
         <Card className="border-none shadow-lg">
           <CardHeader className="text-center bg-gradient-to-r from-translator-primary to-translator-secondary text-white rounded-t-lg">
-            <CardTitle className="text-3xl font-bold">Language Translator</CardTitle>
+            <CardTitle className="text-3xl font-bold"> 🌐 LanguageBridge </CardTitle>
             <CardDescription className="text-white/80">
-              Translate between multiple languages (up to {MAX_TEXT_LENGTH} characters)
+            Powered by mBART-large-50 — translate effortlessly across languages
             </CardDescription>
           </CardHeader>
           <CardContent className="p-4 sm:p-6 h-[calc(100vh-220px)]">
@@ -20,7 +20,7 @@ const Index = () => {
         </Card>
       </div>
       <footer className="text-center text-muted-foreground text-sm mt-8">
-        <p>Powered by mBart-large-50 multilingual translation model</p>
+        <p>Connecting people around the world with advanced AI translation technology</p>
       </footer>
     </div>
   );
