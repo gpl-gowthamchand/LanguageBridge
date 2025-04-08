@@ -5,8 +5,8 @@ import { translateWithHuggingFace } from "./translation/huggingFace";
 import { translateWithLibreTranslate } from "./translation/libreTranslate";
 import { translateWithGoogle } from "./translation/googleTranslate";
 import { mockTranslator } from "./translation/mockTranslator";
-import dotenv from "dotenv";
-dotenv.config();
+
+let DEFAULT_API_TOKEN = import.meta.env.VITE_HUGGINGFACE_API_KEY || "";
 
 export interface TranslationRequest {
   text: string;
@@ -19,9 +19,6 @@ export interface TranslationResponse {
   translatedText: string;
   detectedLanguage?: string;
 }
-
-// Use the token from the environment variable
-const DEFAULT_API_TOKEN = process.env.HUGGINGFACE_API_KEY!;
 
 // Maximum text length for API calls to avoid rate limits
 export const MAX_TEXT_LENGTH = 2000;
