@@ -17,19 +17,49 @@ LanguageBridge provides seamless translation capabilities using advanced machine
 - Text-to-speech conversion for voice output.
 - Automatic language detection for input text or speech.
 - File import/export for translation tasks.
+- Responsive design for desktop and mobile devices.
+- Theme toggle (light/dark mode).
 
 ---
 
 ## Technologies Used
 
-- **Machine Translation Services**: mBART, Google Translate API, LibreTranslate API.
-- **Speech Processing**: Web Speech API, Google Cloud Speech-to-Text.
-- **Text-to-Speech**: Google Cloud Text-to-Speech, Amazon Polly.
-- **Frontend Framework**: React.js (or similar).
-- **Backend**: Node.js, Flask, or Django (if applicable).
-- **Hosting**: Netlify.
-- **Version Control**: GitHub.
-- **AI Assistance**: ChatGPT, GitHub Copilot.
+### **Frontend**
+- **React.js**: For building the user interface.
+- **TypeScript**: For type-safe JavaScript development.
+- **Tailwind CSS**: For styling and utility-first CSS framework.
+- **Radix UI**: For accessible UI components (e.g., `Select`, `Accordion`).
+- **Lucide Icons**: For icons used in the UI.
+- **React Router**: For client-side routing.
+- **React Query**: For managing server state and API calls.
+
+### **Backend/Services**
+- **Hugging Face API**: For machine translation using the `facebook/mbart-large-50-many-to-many-mmt` model.
+- **Google Translate API**: For translation services.
+- **LibreTranslate API**: For open-source translation services.
+- **Mock Translator**: A fallback service for translations when APIs fail.
+
+### **Speech Processing**
+- **Web Speech API**: For speech-to-text and text-to-speech functionality.
+
+### **Hosting**
+- **Netlify**: For hosting the frontend application.
+
+### **Environment Management**
+- **dotenv**: For managing environment variables (e.g., API keys).
+
+### **Utilities**
+- **Sonner**: For toast notifications.
+- **Class Variance Authority (CVA)**: For managing class names dynamically.
+- **clsx** and **tailwind-merge**: For conditional class merging.
+
+### **AI Assistance**
+- **GitHub Copilot**: For code suggestions and auto-completion during development.
+- **ChatGPT**: For debugging, generating ideas, and providing technical guidance.
+
+### **Other Tools**
+- **Vite**: For fast development and build tooling.
+- **GitHub**: For version control and collaboration.
 
 ---
 
