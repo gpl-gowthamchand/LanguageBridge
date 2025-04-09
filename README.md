@@ -84,4 +84,4 @@ Contributions are welcome! If you'd like to contribute to LanguageBridge, please
 1. **Fork the Repository**: Click the "Fork" button at the top of this repository.
 2. **Clone Your Fork**: Clone your forked repository to your local machine.
    ```bash
-   git clone https://github.com/your-username/LanguageBridge.git
+   git clone https://github.com/gpl-gowthamchand/LanguageBridge.git
