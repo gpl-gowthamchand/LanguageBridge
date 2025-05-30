@@ -1,6 +1,6 @@
 # LanguageBridge
 
-LanguageBridge is a multilingual translation web application that supports text translation, speech-to-text, text-to-speech, and file import/export. This project was developed as part of my final year project, leveraging tools like ChatGPT and GitHub Copilot for assistance.
+LanguageBridge is a multilingual translation web application that supports text translation, speech-to-text, text-to-speech, and file import/export. This project was developed after my final year project, "Machine Translation Using Pretrained mBART," and was inspired by that work. I leveraged tools like ChatGPT and GitHub Copilot for assistance during development.
 
 ---
 
